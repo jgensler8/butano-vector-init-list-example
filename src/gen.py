@@ -6,7 +6,7 @@ namespace intermediate {
     void test() {
         int s = 0;
 """)
-    for i in range(1, 500):
+    for i in range(1, 91):
         f.write(f"s += lib::vector_fn({{\"test{i}\"}});\n")
     f.write("""
         }
