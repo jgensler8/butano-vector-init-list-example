@@ -1,3 +1,5 @@
 build/
 *.gba
 *.elf
+*.out
+*.diff

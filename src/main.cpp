@@ -109,6 +109,30 @@ int vector_fn(std::vector<bn::string_view> string_views) {
         s += vector_fn({"test94"});
         s += vector_fn({"test95"});
         // s += vector_fn({"test96"});
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update();
+        bn::core::update(); // other good / bad line
+        // bn::core::update();
+}
+
+void test2() {
+    int s = 0;
+        s += vector_fn({"test96"});
 }
 
 int main()
@@ -118,6 +142,7 @@ int main()
     while(true)
     {
         test();
+        test2();
         bn::core::update();
     }
 }

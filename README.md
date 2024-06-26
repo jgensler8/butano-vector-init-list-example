@@ -15,3 +15,15 @@ make[2]: *** [/home/jgens/Downloads/butano/butano/butano_dka.mak:46: /home/jgens
 make[1]: *** [/home/jgens/Downloads/butano/butano/tools/common_setup.mak:80: build] Error 2
 make: *** [/home/jgens/Downloads/butano/butano/tools/common_setup.mak:75: all] Error 2
 ```
+
+doesn't have to do with size (duplicate various functions until main.o is larger than failure)
+
+a.out sizes:
+
+```
+bad:  518060
+bad2: 513868
+good: 510148
+good2:514396
+good3:520832
+```
